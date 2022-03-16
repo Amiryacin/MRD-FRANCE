@@ -165,10 +165,12 @@ textarea {
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
 .sec-pad {
-  padding: 12rem 0; }
+  padding: 12rem 0;
+  padding-bottom: 0rem; }
   @media only screen and (max-width: 56.25em) {
     .sec-pad {
-      padding: 8rem 0; } }
+      padding: 8rem 0; 
+      padding-bottom: 0rem; } }
 
 .text-primary {
   color: #fff;
@@ -244,7 +246,16 @@ textarea {
     max-width: 80rem; }
   .home-hero__cta {
     margin-top: 5rem;
-    text-align: center; }
+    text-align: center;
+    background-color: whitesmoke;
+    color: lightseagreen; 
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: auto;
+    padding-right: auto;
+    margin: auto;
+    
+  }
 
 .about {
   background: #fafafa; }
@@ -265,7 +276,7 @@ textarea {
           font-size: 2.4rem; } }
     .about__content-details-para {
       font-size: 1.8rem;
-      color: grey;
+      color: lightseagreen;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 1rem; }
@@ -670,7 +681,7 @@ textarea {
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     font-weight: 600;
-    color: #777; }
+    color: lightseagreen; }
 
 .mouse {
   width: 25px;
