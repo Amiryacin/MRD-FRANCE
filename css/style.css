@@ -150,7 +150,8 @@ textarea {
     transform: translateY(-3px); }
   .btn--bg {
     padding: 1.5rem 8rem;
-    font-size: 2rem; }
+    font-size: 2rem;
+    margin-bottom: 2rem; }
   .btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
@@ -164,13 +165,6 @@ textarea {
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
-.sec-pad {
-  padding: 12rem 0;
-  padding-bottom: 0rem; }
-  @media only screen and (max-width: 56.25em) {
-    .sec-pad {
-      padding: 8rem 0; 
-      padding-bottom: 0rem; } }
 
 .text-primary {
   color: #fff;
@@ -245,16 +239,12 @@ textarea {
     margin: 3rem auto 0 auto;
     max-width: 80rem; }
   .home-hero__cta {
-    margin-top: 5rem;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #eee;
     color: lightseagreen; 
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: auto;
-    padding-right: auto;
+    padding: auto;
     margin: auto;
-    
+    padding: 2rem;
   }
 
 .about {
